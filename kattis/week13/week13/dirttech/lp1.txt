@@ -1,0 +1,37 @@
+The Question
+
+DirtTech produces two different kinds of high-tech soils: top soil and
+potting soil. The manufacturing process they use involves three
+departments: cutting, mixing and packaging. The equipment in each
+department can be used at most 8 hours per day.
+
+Given the costs of raw materials and market prices, DirtTech earns
+different profits (in dolalrs per ton) on top soil and potting soil.
+
+How many tons of each product should DirtTech manufacture in order to
+maximize profits?
+
+Format of Inputs
+
+Line 0 of the input file contains the comma-delimited profit (in
+dollars per ton) of top soil and potting soil, respectively. They are
+floating point numbers with no specific accuracy.
+
+Lines 1 through 3 of the input file contain the comma-delimited number of hour required to produce top soil and potting soil, respectively. Line 1 contains the hours required for cutting, line 2 contains the hours required for mixing, and line 3 contains the hours required for packaging. These values are string representations of fractions (e.g., 1/2).
+
+Format of Outputs
+
+Your program must generate a single comma-delimited line of output
+that contains the profit-maximizing number of tons of top soil and
+potting soil. Each value must be rounded to the nearest ton and must not
+include a decimal point.
+
+
+Inputs
+40.00,30.00
+1/2,0/1
+0/1,1/1
+1/3,2/3
+
+Outputs
+16,4

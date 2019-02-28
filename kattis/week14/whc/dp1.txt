@@ -1,0 +1,33 @@
+The Question
+
+The World Health Council's mission it to improve health care in developing countries. It allocates medical teams to countries with the specific objective of maximizing the number of person-years of life (i.e., the country's increased life expectancy times its population.
+
+How should the WHC allocate medical teams to countries?
+
+Format of Inputs
+
+All inputs are integer values.
+
+Line 0 contains the comma-delimited number of medical teams (m) and number of countries (n).
+
+Each subsequent line contains n+1 comma-delimited fields. The first field is the number of medical teams, and the subsequent fields are the thousands of additional person-years of life for each country for that allocation of medical teams. There are m+1 such lines (because 0 is a possible allocation).
+
+Format of Outputs
+
+Your program must generate a single line of output that contains the additional person-years of life (in thousands) from the optimal allocation of medical teams. The value must be an integer.
+
+
+
+
+Inputs
+5,3
+0,0,0,0
+1,45,20,50
+2,70,45,70
+3,90,75,80
+4,105,110,100
+5,120,150,130
+
+
+
+Outputs

@@ -1,0 +1,31 @@
+Though people are often afraid of ogres, the truth is, they pose no danger as they eat only cheese and nuts. While this is good for us, it really complicates their lives. In particular, it makes it difficult for them to satisfy their basic nutritional requirements in the least-cost way.
+
+Ogres have three nutritional constraints they must satisfy involving calcium, protein, and calories.
+
+The question is, how much cheese and nuts should they eat to satisfy their nutritional requirements while spending as little money as possible.
+
+Format of Inputs
+
+All values are floating point numbers of arbitrary accuracy unless stated otherwise.
+
+Line 0 contains the space-delimited cost (in dollars) of cheese and nuts per pound. Both have two digits to the right of the decimal point.
+
+Line 1 contains the space-delimited minimum daily requirements (in appropriate units) of calcium, protein, and calories.
+
+Line 2 contains the space-delimited units of calcium per pound of food for cheese and nuts.
+
+Line 3 contains the space-delimited units of protein per pound of food for cheese and nuts.
+
+Line 4 contains the space-delimited units of calories per pound of food for cheese and nuts.
+
+
+Inputs
+
+0.60 1.00
+20.0 20.0 12.0
+10.0 4.0
+5.0 5.0
+2.0 6.0
+
+Outputs
+3.0 1.0
